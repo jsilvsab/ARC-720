@@ -62,20 +62,20 @@ Decision Diagram (Mermaid)
 
 ```mermaid
 flowchart TD
-    A[Business Drivers] --> B[Revenue Increase (Fast Delivery Needed)]
-    A --> C[Cost Reduction (Lower Ops Overhead)]
-    A --> D[Customer Self-Service (Need Scalability)]
-    A --> E[IT Standardization (Central Governance)]
+    A[Business Drivers]-->B[Revenue Increase\nFast Delivery Needed]
+    A-->C[Cost Reduction\nLower Ops Overhead]
+    A-->D[Customer Self-Service\nNeed Scalability]
+    A-->E[IT Standardization\nCentral Governance]
 
-    B --> F
-    C --> F
-    D --> F
-    E --> F
+    B-->F
+    C-->F
+    D-->F
+    E-->F
 
     F{Deployment Model Choice}
 
-    F --> G[CloudHub 2.0]
-    G --> H[Managed Kubernetes Pods]
-    G --> I[Zero-Downtime Deployments]
-    G --> J[Hybrid Connectivity to On-Prem Systems]
+    F-->G[CloudHub 2.0]
+    G-->H[Managed Kubernetes Pods]
+    G-->I[Zero-Downtime Deployments]
+    G-->J[Hybrid Connectivity\nOn-Prem Systems]
 ```
