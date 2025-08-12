@@ -60,11 +60,12 @@ Alternatives Considered
 
 Decision Diagram (Mermaid)
 
+```mermaid
 flowchart TD
-    A[Business Drivers] --> B[Revenue Increase<br/>(Fast Delivery Needed)]
-    A --> C[Cost Reduction<br/>(Lower Ops Overhead)]
-    A --> D[Customer Self-Service<br/>(Need Scalability)]
-    A --> E[IT Standardization<br/>(Central Governance)]
+    A[Business Drivers] --> B[Revenue Increase (Fast Delivery Needed)]
+    A --> C[Cost Reduction (Lower Ops Overhead)]
+    A --> D[Customer Self-Service (Need Scalability)]
+    A --> E[IT Standardization (Central Governance)]
 
     B --> F
     C --> F
@@ -76,4 +77,5 @@ flowchart TD
     F --> G[CloudHub 2.0]
     G --> H[Managed Kubernetes Pods]
     G --> I[Zero-Downtime Deployments]
-    G --> J[Hybrid Connectivity<br/>to On-Prem Systems]
+    G --> J[Hybrid Connectivity to On-Prem Systems]
+```
