@@ -79,3 +79,6 @@ flowchart TD
     G-->I[Zero-Downtime Deployments]
     G-->J[Hybrid Connectivity\nOn-Prem Systems]
 ```
+
+
+https://drive.google.com/drive/folders/1Chf2IhxDbOJa2ySQu7JP9gTCwdd9Pv5o?usp=sharing
